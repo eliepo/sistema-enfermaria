@@ -1,0 +1,26 @@
+/*con = DriverManager.getConnection(urlmaster,usuariomaster,senhamaster);
+*Statement  st;
+*st = con.createStatement();
+//String xt = (String) Drec.getText();
+//String s = (String) jdescricao.getText();
+String sm = (String) telres.getText();
+String cod = (String) codbox.getSelectedItem();
+String membro = (String) nomembro.getSelectedItem();
+//String ccustodesc = (String) jccustodes.getText();
+
+st.executeUpdate("INSERT INTO Admembro (cadastro,nome,telefone) VALUES ('" +cod+ "','" +membro+ "','"+sm+"')");             
+//cadastro,nome,estcivil,telefone,telcel,mae,pai,nascimeto,profissao,naturalidade,uf,"
+//   + "nacionalidade,rg,cpf,setor,congregacao,proveniente,cidade,databtismo,dataadmitidos,dbatismoaguas,mudancacarta,aclamacao,data,"
+//     + "acao,conjuge,dataascimento,endereco,numero,complemento,bairro,endcidade,enduf,escolaridade,dataespsanto,"
+//         + "mudancacongre,obs
+
+
+JOptionPane.showMessageDialog(null,"Registro inserido com Sucesso","Mensagem do Programa",JOptionPane.INFORMATION_MESSAGE);
+st.close();
+con.close();
+} catch(Exception event){
+event.printStackTrace();
+JOptionPane.showMessageDialog(null,"Conexão não estabelcida","Mensagem do Programa",JOptionPane.ERROR_MESSAGE);
+
+}
+}       */
